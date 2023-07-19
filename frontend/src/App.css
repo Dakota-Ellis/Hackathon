@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
