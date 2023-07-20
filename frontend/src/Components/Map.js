@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import './Map.css';
 
 export default function Map() {
-
+    
     const markers = [
         {
             geocode: [48.86, 2.3522],
@@ -28,12 +28,12 @@ export default function Map() {
 
 
     return (
+    <>
         <MapContainer center={[48.8566, 2.3522]} zoom={15}>
             <TileLayer
              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
              url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
             />
-
             {markers.map(marker => (
                 <Marker position={marker.geocode} icon={customIcon}>
                 </Marker>
@@ -42,5 +42,9 @@ export default function Map() {
 
 
         </MapContainer>
+    </>
     )
 }
+
+
+  

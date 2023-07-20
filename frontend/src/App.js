@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Map from './Components/Map';
+import Login from './Components/Login';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     </div>
 
     <Routes>
-      <Route path='/' element={<Map />}/>
+      <Route path='/' element={<Login />}/>
+      <Route path='/map' element={<Map />}/>
     </Routes>
     </>
   );
