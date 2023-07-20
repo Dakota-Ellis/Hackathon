@@ -5,10 +5,8 @@
 exports.up = function(knex) {
   return knex.schema.createTable('person', table => {
     table.increments('id').primary();
-    table.string('name').notNullable();
+    table.string('name');
     table.string('location');
-    table.integer('mos_id');
-    table.foreign('mos_id').references('mos_id');
   })
 };
 

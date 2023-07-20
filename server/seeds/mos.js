@@ -1285,10 +1285,10 @@ exports.seed = async function(knex) {
     // 98Z
 ]
 
-const mos = mosArray.map((mmos, i) => ({ id: i + 1, mmos: mmos.replace(/\s/g, '_').toLowerCase()}));
-await knex.schema.raw('TRUNCATE mmos CASCADE')
-await knex('mmos').del()
-await knex('mmos').del()
-await knex('mmmos').insert(mos)
-module.exports = mosArray;
+// const mos = mosArray.map((mmos, i) => ({ id: i + 1, mmos: mmos.replace(/\s/g, '_').toLowerCase()}));
+// await knex.schema.raw('TRUNCATE mmos CASCADE')
+// await knex('mmos').del()
+// await knex('mmos').del()
+// await knex('mmmos').insert(mos)
+// module.exports = mosArray;
 };

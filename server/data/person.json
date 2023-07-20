@@ -2,22 +2,22 @@
     {
         "id": 1,
         "name": "Alice Myers",
-        "location": [
-            42.325, 36.245
-        ]
+        "location": [ 32.089, 54.316 ]
     },
     {
         "id": 2,
         "name": "Mayor Donut",
         "location": [
-            21.325, 45.245
+            30.312, 
+            -97.761
         ]
     },
     {
         "id": 3,
         "name": "Angry Cops",
         "location": [
-            34.325, 43.245
+            51.497, 
+            -86.763
         ]
     }
 ]

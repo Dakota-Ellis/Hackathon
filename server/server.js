@@ -9,15 +9,16 @@ app.use(cors())
 
 app.get('/', (req, res) => res.send('Working!'))
 
-app.get('/person', cors(), (req, res) => {
+app.get('/location', cors(), (req, res) => {
     knex('person')
     .select('*')
     .then(result => {
-        var persons = result.map(indv => indv)
+        var persons = result.map(indv => indv.location)
         res.json(persons)
     })
 })
 
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
+
 
