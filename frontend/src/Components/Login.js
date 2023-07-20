@@ -24,8 +24,8 @@ export default function Map() {
 
     return (
     <>
-
-        <div className='Login'>
+         <MapContainer center={[35.848, -8.630]} zoom={1}>
+         <div className='Login'>
           <h1>Login</h1>
              <div>
                 <input className='userInputs' name='UserId' placeholder="User Name..." type='text' />
@@ -33,7 +33,6 @@ export default function Map() {
              </div>
                  <button className='LoginBtn' onClick={() => navigate(`${signIn}`)}>Login</button>
              </div>
-        <MapContainer center={[48.8566, 2.3522]} zoom={15}>
             <TileLayer
              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
              url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'

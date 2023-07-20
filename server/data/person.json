@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Myers",
+        "location": [
+            42.325, 36.245
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Mayor Donut",
+        "location": [
+            21.325, 45.245
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Angry Cops",
+        "location": [
+            34.325, 43.245
+        ]
+    }
+]

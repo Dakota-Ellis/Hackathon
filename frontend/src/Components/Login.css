@@ -1,23 +1,12 @@
 
 .Login {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 25vw;
-    width: 40vw;
-    height: 30vw;
+    margin: 0;
     padding: 0%;
-}
-
-
-.selectCss {
-    text-align: left;
-    justify-content: center;
-    padding: 1%;
-    cursor: pointer;
-    opacity: 1;
+    opacity: 80%;
 }
 
 .userInputs {
@@ -44,6 +33,30 @@
     background-color:#002ead;
     transition: 0.7s;
     opacity: 1;
+}
+
+.Map {
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.leaflet-container {
+    height: 100vh;
+
+}
+
+.cluster-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: none;
+    color: aliceblue;
+    transform: translate(-25%, -25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 
